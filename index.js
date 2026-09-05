@@ -1,7 +1,7 @@
 const http = require('http');
 
 function createMessage(name = 'Cloud Student') {
-  return `Hello, ${name}! CI/CD is working.`;
+  return `Hello, ${name}! CI/CD pipeline updated.`;
 }
 
 if (require.main === module) {
